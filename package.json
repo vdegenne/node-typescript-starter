@@ -1,17 +1,15 @@
 {
-  "name": "node-typescript-starter",
+  "name": "NAME",
   "version": "1.0.0",
-  "description": "a starter for making a typescript project in node",
-  "main": "index.js",
-  "repository": "https://github.com/vdegenne/node-typescript-starter.git",
-  "author": "Valentin Degenne",
+  "description": "DESCRIPTION",
+  "author": "AUTHOR",
   "license": "MIT",
-  "devDependencies": {
-    "typescript": "^2.8.1"
-  },
   "scripts": {
     "start": "./lib/app.js",
     "watch": "rm -rf lib && tsc --watch"
+  },
+  "devDependencies": {
+    "typescript": "^2.8.1"
   },
   "dependencies": {
     "@types/node": "^9.6.1"
