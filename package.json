@@ -7,7 +7,7 @@
   "scripts": {
     "clean": "mkdir -p lib && rm -r lib",
     "build": "yarn clean && tsc",
-    "test": "yarn build && tsc && mocha",
+    "test": "yarn build && mocha",
     "test:watch": "watchy -w src/ -- yarn test",
     "format": "find src test -iname '*.ts' | xargs clang-format --style=file -i"
   },
