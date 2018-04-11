@@ -8,8 +8,10 @@
       "type": "node",
       "request": "launch",
       "name": "Mocha Tests",
-      "program": "${workspaceFolder}/node_modules/.bin/mocha",
-      "outFiles": [],
+      "program": "${workspaceFolder}/node_modules/.bin/_mocha",
+      "outFiles": [
+        "${workspaceFolder}/lib/**/*.js"
+      ],
       "sourceMaps": true
     }
   ]
