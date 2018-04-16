@@ -1,8 +1,8 @@
 {
-  "name": "app-package-json-name",
+  "name": "%name%",
   "version": "1.0.0",
   "description": "description",
-  "author": "Valentin Degenne",
+  "author": "author",
   "license": "MIT",
   "scripts": {
     "clean": "rimraf lib",
@@ -26,5 +26,5 @@
   "dependencies": {
     "@types/node": "^9.6.1"
   },
-  "typings": "./lib/appname.d.ts"
+  "typings": "./lib/%name%.d.ts"
 }
