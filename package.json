@@ -1,8 +1,9 @@
 {
-  "name": "%name%",
+  "name": "%appname%",
   "version": "1.0.0",
   "description": "description",
   "author": "author",
+  "main": "lib/%appname%",
   "license": "MIT",
   "scripts": {
     "clean": "rimraf lib",
@@ -26,5 +27,5 @@
   "dependencies": {
     "@types/node": "^9.6.1"
   },
-  "typings": "./lib/%name%.d.ts"
+  "typings": "lib/%appname%.d.ts"
 }
