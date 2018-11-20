@@ -4,20 +4,10 @@ A starter you can use to start a node project that uses typescript as the compil
 
 ## Installation
 
-You can use the the classic `git clone`
-```bash
-$ git clone https://github.com/vdegenne/node-typescript-starter.git <project-name>
-$ cd <project-name>
-```
-
-But it's not recommended because this will fetch the last state of the repo, hence it could be buggy if some changes occur. Instead download from the *release section* of github or use [github-fetch-starter](https://github.com/vdegenne/github-fetch-starter.git),
-
 ```bash
 $ github-fetch-starter -n <project-name> node-typescript-starter
 $ cd <project-name>
 ```
-
-`github-fetch-starter` lets you download the last release. This ensures the state of the starter never contains bugs and omits the `.git` directory.
 
 
 ## Post-Installation
@@ -28,7 +18,7 @@ After the download. You have to install the dependencies (not included for makin
 $ yarn install
 ```
 
-Now that the dependencies are installed, you can start to modify the tests (under `\src\test`) and the sources (under `\src`). Small chunks have been left intentionnally for you to have an idea how to write a test and start the code.
+Now that the dependencies are installed, you can start to modify the tests (under `\src\test`) and the sources (under `\src`).
 
 Once you are ready to try some tests, run `yarn test:watch` in a separate command line. This will respond to any further changes you make in the `src` directory, run `tsc` and `mocha` subsequently.
 

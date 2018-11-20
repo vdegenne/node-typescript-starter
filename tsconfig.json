@@ -1,24 +1,20 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "lib": [
-      "es2016",
-      "esnext.asynciterable"
-    ],
     "module": "commonjs",
     "moduleResolution": "node",
-    "isolatedModules": false,
-    "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "declaration": true,
-    "noImplicitAny": true,
-    "removeComments": false,
+    "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "preserveConstEnums": true,
-    "suppressImplicitAnyIndexErrors": true,
-    "outDir": "lib",
-    "sourceMap": true
+    "lib": [
+      "es2017",
+      "esnext.asynciterable"
+    ],
+    "declaration": true,
+    "sourceMap": true,
+    "pretty": true,
+    "outDir": "./lib"
   },
   "include": [
     "custom_typings/**/*.ts",

@@ -1,9 +1,7 @@
-import * as chai from 'chai';
+import { assert } from 'chai';
 
-const assert = chai.assert;
-
-suite('My_first_Test', () => {
-  test('should_be_true', () => {
-    assert.equal(true, true);
+suite('test', () => {
+  test('yo', () => {
+    assert.equal(1, 1);
   });
 });
